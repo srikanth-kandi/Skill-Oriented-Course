@@ -1,0 +1,10 @@
+Forms - Takes the input from the user and submits to the server.
+1. Text
+2. Password
+3. Checkbox
+4. radio
+5. choice list
+6. text area
+7. button or submit button
+
+https://w3lessons.info/new-gmail-style-login-registration-form-with-material-design-jquery-html-css/

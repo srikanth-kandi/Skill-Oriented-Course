@@ -1,0 +1,9 @@
+Frames
+To display more than one page on single browser at a time.
+<frameset rows="" cols="">
+<frame src="html page" name="identification">
+<frame src="html page" name="identification">
+</frameset>
+
+Some modern browsers are not supporting frameset
+we can use <iframe></iframe>

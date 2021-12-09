@@ -1,0 +1,16 @@
+Linking of HTML Documents
+moving from one page to another html page is possible
+<a> - anchor tag
+Attributes:
+href = "address/name of html page"
+target="Frame/window of html page"
+
+<a href="first.html"> click this Link </a>
+
+External Linking - Linking of external html documents
+
+Internal Linking- Moving from one place to another place in the same html document.
+
+<a href=#idvalue> Goto Bottom(Internal Linking)</a>
+
+1. Design an html page to include external links (One 

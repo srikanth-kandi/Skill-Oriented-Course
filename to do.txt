@@ -1,0 +1,13 @@
+username
+password
+languages known Telugu,Hindi,English
+Gender Male,Female
+Choose country
+Choose state
+City 
+Address
+Date of Birth
+Color Box
+Phone number
+file
+email

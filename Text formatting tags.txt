@@ -1,0 +1,24 @@
+Text formatting Tags
+1. Bold Format
+<b> Text </b>
+
+2. Italic Text
+<i> Italic Text </i>
+
+3. Underline
+<u> Underline </u>
+
+4. Small Text
+<small> Small Text </small>
+
+5. Big Text
+<big> Big.. </big>
+
+6. Strike
+<strike>Striked Text</strike>
+
+7. H2O
+H<sub>2</sub>O
+
+8. X²
+X<sup>2</sup>
