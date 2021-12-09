@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment_form.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <p>Required Fields are followed by <span style="color: red;">*</span></p>
+        <h2>Contact Information</h2>
+        <fieldset> <!--field set is used to get border for the field-->
+            <legend>Name</legend> <!--Legend is used to display the name of the field set-->
+            <p>Name: <span style="color: red;">*</span><input type="text" name="name" id="name" required placeholder="FirstName LastName"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Gender <span style="color: red;">*</span></legend>
+        <p>
+            Male: <input type="radio" name="gender" id="gender" required>
+            Female: <input type="radio" name="gender" id="gender" required>            
+            Other: <input type="radio" name="gender" id="gender" required>            
+        </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address here"></textarea></p>
+        <p>Email: <span style="color: red;">*</span><input type="email" name="email" id="email" required placeholder="xyz@email.com"></p>
+        <p>Pincode: <span style="color: red;">*</span><input type="number" name="pincode" id="pincode" required placeholder="123456"></p>
+        <hr>
+        <h2>Payment Information</h2>
+        <p>Card Type: <span style="color: red;">*</span>
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">Master Card</option>
+            </select>
+        </p>
+        <p>
+            Card Number: <span style="color: red;">*</span><input type="number" name="card_number" id="card_number" required placeholder="1234-1234-1234-1234">
+        </p>
+        <p>
+            Expiration Date: <span style="color: red;">*</span><input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p>
+            CVV: <span style="color: red;">*</span><input type="password" name="cvv" id="cvv" required placeholder="123">
+        </p>
+        <input type="submit" value="Pay Now">
+    </form>
+    </div>
+</body>
+</html>
